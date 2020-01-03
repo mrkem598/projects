@@ -117,14 +117,7 @@ h1 {
   </div>
   <div class="column cars">
     <div class="content">
-  <img width="90%" alt="Screen Shot 2020-01-02 at 6 17 05 PM" src="https://user-images.githubusercontent.com/23619819/71699326-f5c19f80-2d8c-11ea-8e92-8dec898a8475.png">
-      <h4>US Air Force</h4>
-      <p>Talent Management Portal</p>
-    </div>
-  </div>
-  <div class="column cars">
-    <div class="content">
-    <img width="90%" alt="Screen Shot 2020-01-02 at 6 18 10 PM" src="https://user-images.githubusercontent.com/23619819/71699601-4c7ba900-2d8e-11ea-8eb6-9a915bf6ae54.png">
+    <img width="90%" alt="Screen Shot 2020-01-02 at 6 17 05 PM" src="https://user-images.githubusercontent.com/23619819/71699326-f5c19f80-2d8c-11ea-8e92-8dec898a8475.png">
       <h4>US Air Force</h4>
       <p>Talent Management Portal</p>
     </div>
@@ -132,6 +125,13 @@ h1 {
   <div class="column cars">
     <div class="content">
     <img width="90%" alt="Screen Shot 2020-01-02 at 6 17 16 PM" src="https://user-images.githubusercontent.com/23619819/71699434-76809b80-2d8d-11ea-862a-3ecd414824ef.png">
+      <h4>US Air Force</h4>
+      <p>Talent Management Portal</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img width="90%" alt="Screen Shot 2020-01-02 at 6 18 10 PM" src="https://user-images.githubusercontent.com/23619819/71699601-4c7ba900-2d8e-11ea-8eb6-9a915bf6ae54.png">
       <h4>US Air Force</h4>
       <p>Talent Management Portal</p>
     </div>
@@ -213,7 +213,6 @@ function w3AddClass(element, name) {
     if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
   }
 }
-
 function w3RemoveClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -225,8 +224,6 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
-
-
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
