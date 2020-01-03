@@ -9,7 +9,7 @@
 
 body {
   background-color: #00008b;
-  padding: 20px;
+  padding: 0px;
   font-family: Arial;
   text-align: center;
   color: gold;
@@ -31,13 +31,12 @@ h1 {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 10px;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 90%;
+  width: 100%;
   display: none; /* Hide all elements by default */
   /* overrride the color*/
   color: black;
@@ -53,7 +52,7 @@ h1 {
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 0px;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -102,17 +101,31 @@ h1 {
 <div class="row">
   <div class="column nature">
     <div class="content">
-      <img width="90%" alt="Screen Shot 2020-01-02 at 5 24 17 PM" src="https://user-images.githubusercontent.com/23619819/71698926-59e36400-2d8b-11ea-845e-44319c6cc3fd.png">
-      <h4>Bio</h4>
+    <img width="100%" alt="Screen Shot 2020-01-02 at 9 20 19 PM" src="https://user-images.githubusercontent.com/23619819/71703991-bc495e00-2da5-11ea-9fc5-adc3d04fb47d.png">
+      <h4>2010 - 2013 Minstry of Health</h4>
       <p>Born and Grown in Ethiopia</p>
     </div>
   </div>
   <!-- Air Force Project -->
-  <div class="column cars">
+   <div class="column nature">
     <div class="content">
-   <img width="90%" alt="Screen Shot 2020-01-02 at 5 24 30 PM" src="https://user-images.githubusercontent.com/23619819/71699246-9e233400-2d8c-11ea-8024-bbeefd437a91.png">
-      <h4>Lights</h4>
-      <p>Lorem ipsum dolor..</p>
+   <img width="100%" alt="Screen Shot 2020-01-02 at 8 55 08 PM" src="https://user-images.githubusercontent.com/23619819/71703775-86f04080-2da4-11ea-9242-14e55aeb836c.png">
+      <h4>Ministry of Health</h4>
+      <p></p>
+    </div>
+  </div>
+   <div class="column nature">
+    <div class="content">
+   <img width="100%" alt="Screen Shot 2020-01-02 at 9 13 13 PM" src="https://user-images.githubusercontent.com/23619819/71703862-0d0c8700-2da5-11ea-9d62-53a7123e6afe.png">
+      <h4>Ministry of Health</h4>
+      <p>Great Idea Award</p>
+    </div>
+  </div>
+<div class="column cars">
+    <div class="content">
+   <img width="100%" alt="Screen Shot 2020-01-02 at 5 24 30 PM" src="https://user-images.githubusercontent.com/23619819/71699246-9e233400-2d8c-11ea-8024-bbeefd437a91.png">
+      <h4>US Air Force</h4>
+      <p></p>
     </div>
   </div>
   <div class="column cars">
@@ -165,6 +178,20 @@ h1 {
       <p>Persona Based Dashboards</p>
     </div>
   </div>
+   <div class="column people">
+    <div class="content">
+    <img width="100%" alt="Screen Shot 2019-12-26 at 11 49 43 AM" src="https://user-images.githubusercontent.com/23619819/71704364-f3207380-2da7-11ea-9d75-308c34b1caa7.png">
+      <h4>Deloitte Culture of Courage</h4>
+      <p>2018 Deloitte Culture of Courage Winner</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img width="100%" alt="Screen Shot 2020-01-02 at 6 19 49 PM" src="https://user-images.githubusercontent.com/23619819/71704390-27942f80-2da8-11ea-9c42-1cc8c5720ef9.png">
+      <h4>Deloitte Outstanding Employee</h4>
+      <p>2019 Deloitte Outstanding Performance Award Winner</p>
+    </div>
+  </div>
 <!-- COLUMN DELOITTE INTERNAL 
 <div class="internal">
     <div class="content">
@@ -213,6 +240,7 @@ function w3AddClass(element, name) {
     if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
   }
 }
+
 function w3RemoveClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -236,7 +264,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 </script>
 <footer>
-  <p>Developed by A'shadieeyah Reshid</p>
+  <p>Owned by Mohammed Kemal</p>
 </footer>
 </body>
 </html>
